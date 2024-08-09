@@ -9,7 +9,7 @@ import Contact from './components/Contact';
 
 function App() {
   return (
-    <div className="text-white bg-[#1A191C]">
+    <div className="text-black bg-white">
       <Header />
       {/* <Routes>
         <Route path='/' element={<><About /> <Skills /> <Projects /><Contact /></>} />

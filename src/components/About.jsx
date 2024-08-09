@@ -1,24 +1,24 @@
 import React from 'react'
-// import { Link } from 'react-router-dom'
-import { Element } from 'react-scroll'
+
+import { Element , Link} from 'react-scroll'
 
 function Intro() {
   return (
     <Element name="about">
-    <div>
+    <div className='text-black bg-white'>
 
-      <p className='text-yellow-400'>Hello, welcome</p>
+      <p className='text-black'>Hello, welcome</p>
 
 
       <div className='mt-10'>
         <h1 className='text-4xl'>I am <span className='text-orange-500 lemon-regular'>Shahreyar</span></h1>
       </div>
 
-      <div className='mt-4 text-xl text-gray-200'>
+      <div className='mt-4 text-xl text-black'>
         a budding developer with experience in HTML, CSS, and JavaScript. I am also knowledgeable in C, Python, Java, and currently learning Android development and databases.
       </div>
 
-      <button className='w-40 border-2 p-2 rounded-lg bg-[#FACC15] text-black mt-8 hover:bg-slate-200 hover:font-black font-semibold'>Contact us</button>
+   <Link to='contact' smooth={true} duration={500}>   <button className='w-40 border-2 p-2 rounded-lg bg-[#FACC15] text-black mt-8 hover:bg-slate-200 hover:font-black font-semibold'>Contact us</button> </Link>
     </div>
     </Element>
 
