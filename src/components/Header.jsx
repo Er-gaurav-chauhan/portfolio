@@ -8,10 +8,10 @@ function Header() {
       <div className="container mx-auto flex justify-between items-center">
         <h1 className="text-2xl font-bold flex text-pink-600">Shahreyar's Portfolio</h1>
         <nav className='space-x-10 text-pink-600 lemon-regular cursor-pointer '>
-          <Link to="about" smooth={true} duration={500} className='hover:text-xl ease-in-out duration-500 hover:text-orange-500'>About</Link>
-          <Link to="skills" smooth={true} duration={500} className='hover:text-xl ease-in-out duration-500 hover:text-orange-500'>Skills</Link>
-          <Link to="projects" smooth={true} duration={500} className='hover:text-xl ease-in-out duration-500 hover:text-orange-500'>Projects</Link>
-          <Link to="contact" smooth={true} duration={500} className='hover:text-xl ease-in-out duration-500 hover:text-orange-500'>Contact</Link>
+          <Link to="about" smooth={true} duration={500} className='hover:text-xl ease-in-out duration-500 hover:text-orange-500'  data-aos="fade-up" data-aos-duration="4000">About</Link>
+          <Link to="skills" smooth={true} duration={500} className='hover:text-xl ease-in-out duration-500 hover:text-orange-500'  data-aos="fade-up" data-aos-duration="4000">Skills</Link>
+          <Link to="projects" smooth={true} duration={500} className='hover:text-xl ease-in-out duration-500 hover:text-orange-500'  data-aos="fade-up" data-aos-duration="4000">Projects</Link>
+          <Link to="contact" smooth={true} duration={500} className='hover:text-xl ease-in-out duration-500 hover:text-orange-500'  data-aos="fade-up" data-aos-duration="4000">Contact</Link>
         </nav>
       </div>
     </header>

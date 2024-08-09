@@ -25,9 +25,10 @@ function Contact() {
 
   return (
 <Element name='contact'>
-<section id="contact" className="py-12 bg-[#FFFFFF] text-black">
+<section id="contact" className="py-6 bg-[#FFFFFF] text-black " data-aos="fade-right" data-aos-duration="4000">
       <div className="container mx-auto px-4">
-        <h2 className="text-3xl font-bold mb-8 text-center">Contact Me</h2>
+     
+        <h2 className="text-3xl font-bold mb-8 text-center"> <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true" class="hidden h-11 w-16 text-black md:inline"><path stroke-linecap="round" stroke-linejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>Contact Me</h2>
         <form onSubmit={handleSubmit} className="max-w-full mx-auto bg-white shadow-lg rounded-lg p-8">
           <div className="mb-6">
             <label htmlFor="name" className="block text-gray-700 font-semibold mb-2">Name</label>
